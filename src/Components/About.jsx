@@ -1,10 +1,10 @@
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/about1.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id="about" className="border-b border-neutral-900 pb-4">
       <h2 className="my-20 text-center text-4xl">
         About
         <span className="text-neutral-500"> Me </span>
