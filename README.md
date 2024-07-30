@@ -11,8 +11,10 @@ Follow these steps to set up the project locally.
 ```bash
 git clone https://github.com/arunkumarsanku/MyPortfolio.git
 ```
-```bash install dependicies
+### 2.install dependicies
+```bash 
 npm install
 ```
-```bash  To run locally
-npm run dev
+### 3.To run locally
+```bash
+ npm run dev
