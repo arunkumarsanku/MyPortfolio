@@ -11,10 +11,10 @@ export const EXPERIENCES = [
   
   {
     year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
+    role: "Frontend Developer Intern",
+    company: "Deloite",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    technologies: ["HTML", "CSS", "React.js", "mySQL"],
   }
   ];
 
