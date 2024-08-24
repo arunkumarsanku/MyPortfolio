@@ -2,7 +2,7 @@
 # Project Name
 MyPortfolio
 ## Description
-A brief introduction of Myself,the Technologies i am familiar with and Implementations of projects
+A brief introduction of Myself,the Technologies i am familiar with and Implementations of real time projects 
 
 ## Installation
 
