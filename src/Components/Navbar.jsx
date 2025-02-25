@@ -8,7 +8,6 @@ const Navbar = () => {
       <nav className="flex items-center justify-between py-6">
         <div className="flex items-center">
           <img className="mx-2 w-10" src={logo} alt="logo" />
-          <div className="ml-40 text-4xl font-semibold">Sanku Arunkumar</div>
         </div>
         <div className="flex items-center gap-5">
           <Link to="about" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
