@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilepic from "../assets/arunkumarprofile1.jpg";
+import profilepic from "../assets/about1.jpg";
 import { motion } from "framer-motion";
 
 
@@ -35,7 +35,7 @@ const Hero = () => {
             variants={container(1)}
             initial="hidden"
             animate="visible"
-            className="my-2 max-w-xl py-6 font-light tracking-tighter ">
+            className="my-2 max-w-xl py-6 text-xl tracking-tighter ">
               {HERO_CONTENT}{" "}
             </motion.p>
           </div>
@@ -43,7 +43,7 @@ const Hero = () => {
         <div className="object-scale-down h-48 w-96 lg:w-1/2 lg:p-8" >
           <div className="flex justify-center ">
             <motion.img 
-            initial={{x:100, opacity:0}} 
+            initial={{x:10, opacity:0}} 
             animate={{x:0,opacity:1 }} 
             transition={{duration:1, delay:1}}
             src={profilepic} alt="ArunKumar" />
