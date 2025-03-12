@@ -1,6 +1,7 @@
 import cicd from "../assets/projects/cicd.avif";
 import cicd2 from "../assets/projects/cicd2.png";
-
+import fm from "../assets/projects/fm.png";
+import project2 from "../assets/projects/project-2.jpg";
 
 export const HERO_CONTENT = `I design, develop, and innovate in the world of technology. With a degree in ICT and a drive to solve complex problems, I’m looking for opportunities to apply my skills in software development, Devops principles.`;
 
@@ -41,6 +42,19 @@ export const PROJECTS = [
     description:
       "Implemented end-to-end DevOps for a MERN stack application by provisioning infrastructure with Terraform, automating CI/CD with Jenkins and Argo CD, configuring Ingress and Route 53 for domain routing, and enhancing observability with Prometheus and Grafana.",
     technologies: ["Terraform", "Kubernetes", "Jenkins", "Argo CD", "Prometheus", "Grafana"],
+  },
+  {
+    title: "Full-Stack AI Finance Platform",
+    image: fm,
+    description:"Built a full-stack AI-driven finance platform with Next.js, Supabase, and Tailwind CSS, leveraging AI insights via Inngest and ArcJet, real-time data management with Supabase, and optimized database operations using Prisma ORM for seamless performance.",
+    technologies: ["Next.js", "Supabase", "Tailwind CSS", "Inngest", "ArcJet", "Prisma ORM"]
+  },
+  {
+    title: "Full-Stack Blog Application",
+    image: project2,
+    description:"Built a full-stack blog application with a React frontend and Node.js backend, integrating Prisma ORM for database management, JWT authentication for secure access, and RESTful APIs with role-based access control for content management.",
+    technologies: ["React", "Node.js", "Prisma ORM", "JWT", "RESTful APIs"]
+  
   }
 ];
 

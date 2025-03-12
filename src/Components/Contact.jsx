@@ -1,5 +1,6 @@
 import { CONTACT } from "../constants"
 import {  motion } from "framer-motion"
+import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -19,9 +20,14 @@ const Contact = () => {
             initial={{opacity:0, x:100}}
             transition={{duration:1}}
             className="my-4">{CONTACT.address}</motion.p>
-            <a href="#" className="border-b">{CONTACT.email}</a>
+            <a href="#" className="border-b">{CONTACT.email}
+             <div className="justify-center  flex  text-2xl"> <FaLinkedin
+              
+            onClick={() => window.open("https://www.linkedin.com/in/arun-kumar-sanku-b6376a1a5/", "_blank")}
+                        aria-label="LinkedIn profile"
+                      /> </div> </a>   
         </motion.div>
-      
+        
     </div>
   )
 }
