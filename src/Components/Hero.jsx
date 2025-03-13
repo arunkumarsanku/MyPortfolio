@@ -1,7 +1,7 @@
+import React from 'react';
 import { HERO_CONTENT } from "../constants";
 import profilepic from "../assets/about1.jpg";
 import { motion } from "framer-motion";
-
 
 const container = (delay) => ({
     hidden :{x:-100, opacity: 0},
@@ -10,7 +10,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div data-testid="hero"className="border-b border-neutral-900 pb-4 lg:mb-35" >
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">

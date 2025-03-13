@@ -1,10 +1,11 @@
-import { CONTACT } from "../constants"
-import {  motion } from "framer-motion"
+import React from 'react';
+import { CONTACT } from "../constants";
+import {  motion } from "framer-motion";
 import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div id="contact" className="border-b border-neutral-900 pb-20">
+    <div data-testid="contact" className="border-b border-neutral-900 pb-20">
         <motion.h2 
         whileInView={{opacity:1, y:0}}
         initial={{opacity:0, y:-100}}

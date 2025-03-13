@@ -1,3 +1,4 @@
+import React from 'react';
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb, SiDocker, SiJenkins, SiTerraform, SiAnsible, SiKubernetes, SiPrometheus, SiGrafana } from "react-icons/si";
@@ -5,6 +6,7 @@ import { DiRedis } from "react-icons/di";
 import { FaNode } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
+
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -16,7 +18,7 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div data-testid="technologies" className="border-b border-neutral-800 pb-24">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}

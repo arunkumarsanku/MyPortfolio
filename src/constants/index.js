@@ -10,7 +10,7 @@ I have worked with a variety of technologies, including React, Next.js, Node.js,
 My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. 
 I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
 
-export const EXPERIENCES = [
+export const EXPERIANCES = [
   
   {
     year: " Jan 2024 - Mar 2024",

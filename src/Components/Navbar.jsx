@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from "../assets/AKlogo.jpg";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { Link } from "react-scroll";
@@ -5,7 +6,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div>
-      <nav className="flex items-center justify-between py-6">
+      <nav data-testid="navbar" className="flex items-center justify-between py-6">
         <div className="flex items-center">
           <img className="mx-2 w-10" src={logo} alt="logo" />
         </div>
@@ -13,8 +14,8 @@ const Navbar = () => {
           <Link to="about" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
             About
           </Link>
-          <Link to="experience" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
-            Experience
+          <Link to="Experiance " smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
+            Experiance 
           </Link>
           <Link to="Projects" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
             Projects

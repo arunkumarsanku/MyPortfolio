@@ -1,9 +1,10 @@
+import React from 'react';
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div id="about" className="border-b border-neutral-900 pb-4 min-h-screen flex flex-col justify-center">
+    <div data-testid="about" className="border-b border-neutral-900 pb-4 min-h-screen flex flex-col justify-center">
       <h2 className="my-20 text-center text-4xl">
         About
         <span className="text-neutral-500"> Me </span>
