@@ -1,0 +1,20 @@
+# deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myportfolio
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myportfolio
+  template:
+    metadata:
+      labels:
+        app: myportfolio
+    spec:
+      containers:
+        - name: myportfolio
+          image: arunkumar799/myportfolio:v1
+          ports:
+            - containerPort: 80
