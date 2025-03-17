@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import Navbar from '../Components/Navbar';
 import Hero from '../Components/Hero';
 import About from '../Components/About';
-import Technologies from '../components/Technologies';
+import Technologies from '../Components/Technologies';
 import Experiance  from '../Components/Experiance';
 import Projects from '../Components/Projects';
 import Contact from '../Components/Contact';
