@@ -1,4 +1,3 @@
-import React from 'react';
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb, SiDocker, SiJenkins, SiTerraform, SiAnsible, SiKubernetes, SiPrometheus, SiGrafana } from "react-icons/si";

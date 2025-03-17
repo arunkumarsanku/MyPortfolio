@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from "../assets/AKlogo.jpg";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { Link } from "react-scroll";

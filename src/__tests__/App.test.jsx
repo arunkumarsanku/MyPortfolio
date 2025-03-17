@@ -1,4 +1,3 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Navbar from '../Components/Navbar';
 import Hero from '../Components/Hero';
@@ -8,7 +7,9 @@ import Experiance  from '../Components/Experiance';
 import Projects from '../Components/Projects';
 import Contact from '../Components/Contact';
 import App from '../App';
+import { test, expect } from '@jest/globals';
 
+// Rest of the test file remains the same
 test('renders the App component without errors', () => {
   render(<App />);
 });

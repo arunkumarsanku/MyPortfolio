@@ -16,8 +16,7 @@ export const EXPERIANCES = [
     year: " Jan 2024 - Mar 2024",
     role: "Research Intern",
     company: "University of Padova",
-    description: `Interpreting Customer preferences and Strategic Decision-Making in Graph-Based and Action Tree Analysis of Simulated Game Environments`,
-    technologies: ["Python-Pandas","Excel"],
+    description: "Interpreting Customer preferences and Strategic Decision-Making in Graph-Based and Action Tree Analysis of Simulated Game Environments",    technologies: ["Python-Pandas","Excel"],
   },
   {
     year: " Mar 2024 - Oct 2024",
