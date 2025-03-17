@@ -4,7 +4,7 @@ import About from './Components/About';
 import Experiance from './Components/Experiance';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-import Technologies from "./components/Technologies";
+import Technologies from "./Components/Technologies";
 
 const App = () => {
   return (
