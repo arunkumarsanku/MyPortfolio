@@ -13,10 +13,10 @@ const Navbar = () => {
           <Link to="about" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
             About
           </Link>
-          <Link to="Experiance " smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
+          <Link to="experiance" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
             Experiance 
           </Link>
-          <Link to="Projects" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
+          <Link to="projects" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
             Projects
           </Link>
           <Link to="contact" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
