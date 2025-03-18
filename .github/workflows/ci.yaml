@@ -90,7 +90,7 @@ jobs:
 
       - name: Update tag in Helm chart
         run: |
-          sed -i 's/tag: .*/tag: "${{github.run_id}}"/' helm/portfolio-chart/values.yaml
+          sed -i 's/tag: .*/tag: "${{github.run_id}}"/' helm/myportfolio-chart/values.yaml
 
       - name: Commit and push changes
         run: |
