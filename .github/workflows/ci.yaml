@@ -76,7 +76,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/myportfolio:${{github.run_id}}
+          tags: arunkumar799/myportfolio:${{ github.run_id }}
 
   update-helm:
     runs-on: ubuntu-latest
