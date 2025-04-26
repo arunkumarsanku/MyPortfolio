@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav data-testid="navbar" className="flex items-center justify-between py-6">
+    <div className="flex justify-center w-full">
+      <nav data-testid="navbar" className="fixed flex items-center justify-between py-6 max-w-6xl w-full px-4">
         <div className="flex items-center">
           <img className="mx-2 w-10" src={logo} alt="logo" />
         </div>
@@ -13,8 +13,8 @@ const Navbar = () => {
           <Link to="about" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
             About
           </Link>
-          <Link to="experiance" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
-            Experiance 
+          <Link to="Experience" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
+            Experience 
           </Link>
           <Link to="projects" smooth={true} duration={500} className="px-4 py-2 hover:bg-gray-700 rounded-md cursor-pointer">
             Projects

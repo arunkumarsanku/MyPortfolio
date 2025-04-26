@@ -3,12 +3,12 @@ import {  motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div id="projects" data-testid="projects" className="border-b border-neutral-400 pb-4">
+    <div id="projects" data-testid="projects" className="pt-10 border-b border-neutral-400 pb-4">
       <motion.h1
       whileInView={{opacity:1, y:0}}
       initial={{opacity:0, y:-10}}
       transition={{duration:0.5}}
-      className="my-20 text-center text-4xl">Projects</motion.h1>
+      className="pt-3 my-20 text-center text-4xl">Projects</motion.h1>
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">

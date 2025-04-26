@@ -3,13 +3,13 @@ import Navbar from '../Components/Navbar';
 import Hero from '../Components/Hero';
 import About from '../Components/About';
 import Technologies from '../Components/Technologies';
-import Experiance  from '../Components/Experiance';
+import Experience  from '../Components/Experience';
 import Projects from '../Components/Projects';
 import Contact from '../Components/Contact';
 import App from '../App';
 import { test, expect } from '@jest/globals';
 
-// Rest of the test file remains the same
+
 test('renders the App component without errors', () => {
   render(<App />);
 });
@@ -40,10 +40,10 @@ test('renders Technologies component', () => {
   expect(technologiesElement).toBeInTheDocument();
 });
 
-test('renders Experiance  component', () => {
-  render(<Experiance  />);
-  const ExperianceElement = screen.getByTestId('experiance');
-  expect(ExperianceElement).toBeInTheDocument();
+test('renders Experience  component', () => {
+  render(<Experience  />);
+  const ExperienceElement = screen.getByTestId('Experience');
+  expect(ExperienceElement).toBeInTheDocument();
 });
 
 test('renders Projects component', () => {
